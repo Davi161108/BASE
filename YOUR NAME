@@ -1,0 +1,35 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 07/05/2025
+Var
+// Seção de Declarações das variáveis 
+num1:inteiro
+num2:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("Digite 1 número de até dois algarismos")
+leia(num1)
+
+se (num1>=18) e (num1<=59) entao
+escreval("Parabéns!! Você é adulto e já pode ser preso!")
+fimse
+
+se (num1>=12) e (num1<=17) entao
+escreval ("Parabéns!! Você é menor de idade, ainda adolescente e dependente dos pais!")
+fimse
+
+se (num1>=60) entao
+escreval ("Você já está idoso e velhinho :)")
+fimse
+
+se (num1<=11) entao
+escreval ("Você é criança e vive feliz sem preocupação")
+fimse
+
+
+
+Fimalgoritmo
