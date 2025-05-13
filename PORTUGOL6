@@ -1,0 +1,32 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 13/05/2025
+Var
+// Seção de Declarações das variáveis
+a:inteiro
+b:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+aleatorio on
+leia (a)
+aleatorio off
+limpatela
+
+escreval ("digite um numero de 1 a 10")
+leia (b)
+
+se (b) >2 entao
+escreval ("TURUUUU")
+fimse
+
+enquanto (b) = 1 faça
+se (b) = 1 entao
+escreval ("ZINHA MELHOR DO MUNDO")
+fimse
+fimenquanto
+
+Fimalgoritmo
