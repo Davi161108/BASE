@@ -1,0 +1,35 @@
+a: inteiro
+opcao:inteiro
+
+Inicio
+enquanto (opcao<>3) faca
+
+             escreval ("CENTRAL DO ALUNDO")
+             escreval ("-------------------------------------------------------------------")
+             escreval ("")
+             escreval ("DIGITE AQUI O SEU NOME COMPLETO:")
+             escreval ("")
+leia (a)
+             escreval ("")
+             escreval ("SELECIONE UMA OPÇÃO:")
+             escreval ("1- Verificar notas e faltas")
+             escreval ("")
+             escreval ("2- Dúvidas")
+             escreval ("")
+             escreval ("3- Sair")
+             escreval ("")
+
+leia (opcao)
+escolha (opcao)
+        caso 1
+             escreval(";-;")
+        caso 2
+             escreval("GPT")
+        caso 3
+             escreval("):")
+
+fimescolha
+
+fimenquanto
+
+Fimalgoritmo
