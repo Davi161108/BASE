@@ -1,0 +1,31 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 15/05/2025
+Var
+// Seção de Declarações das variáveis 
+meuvetor: vetor[0..100] de inteiro
+ha:inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+para ha de 1 até 5 faca
+     leia (meuvetor[ha])
+     se ha>=0 entao
+        escreval("o seu numero é positivo:")
+     fimse
+
+     se ha<0 entao
+        escreval("o seu numero e negativo:")
+     fimse
+
+     se meuvetor[ha] mod 2<>0 entao
+        escreval ("Este numero é positivo e impar: ", meuvetor[ha])
+     fimse
+     se meuvetor[ha] mod 2=0 entao
+        escreval ("Este numero é positivo e par: ", meuvetor[ha])
+     fimse
+     
+fimpara
+Fimalgoritmo
