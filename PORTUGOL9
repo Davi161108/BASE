@@ -1,0 +1,58 @@
+Algoritmo "semnome"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 19/05/2025
+Var
+// Seção de Declarações das variáveis 
+a:vetor [0..2,0..2] de inteiro
+linha,coluna,pares,impares,positivos,negativos:inteiro
+ Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc..
+a[0,0]<-0
+a[0,1]<-1
+a[0,2]<-2
+a[1,0]<-3
+a[1,1]<-4
+a[1,2]<-5
+a[2,0]<-6
+a[2,1]<-7
+a[2,2]<-8
+
+pares<-0
+impares <- 0
+
+para linha de 0 ate 2 faca
+     para coluna de 0 ate 2 faca
+           escreva (a[linha,coluna])
+fimpara
+       escreval("")
+     fimpara
+     
+         para linha de 0 até 2 faça
+      para coluna de 0 até 2 faça
+         se a[linha, coluna] mod 2 = 0 então
+            pares <- pares + 1
+         senão
+            impares <- impares + 1
+         fimse
+      fimpara
+   fimpara
+   escreval("Quantidade de números pares: ", pares)
+   escreval("Quantidade de números ímpares: ", impares)
+   
+   para linha de 0 até 2 faça
+      para coluna de 0 até 2 faça
+         se a[linha, coluna] > 0 então
+            positivos <- positivos + 1
+         senao
+            se a[linha, coluna] < 0 então
+               negativos <- negativos + 1
+            fimse
+         fimse
+      fimpara
+   fimpara
+   escreval("Quantidade de números positivos: ", positivos)
+   escreval("Quantidade de números negativos: ", negativos)
+Fimalgoritmo
