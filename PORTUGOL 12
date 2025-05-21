@@ -5,60 +5,60 @@ Algoritmo "semnome"
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 21/05/2025
 Var
-// Seção de Declarações das variáveis
+   // Seção de Declarações das variáveis
    resultado,valor1, valor2: real
-    opcao:inteiro
+   opcao:inteiro
 funcao soma(a,b:real):real
-
 inicio
-      retorne a+b
+   retorne a+b
 fimfuncao
 
 funcao subtracao(c,d:real):real
 inicio
-      retorne c-d
+   retorne c-d
 fimfuncao
 
 funcao multiplicar(p,f:real):real
 inicio
-      retorne p*f
+   retorne p*f
 fimfuncao
 
 funcao divisao(h,g:real):real
 inicio
-      retorne h/g
+   retorne h/g
 fimfuncao
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-escreval("1-Para adicionar:")
-escreval("2-Para subtrair:")
-escreval("3-Para multiplicar:")
-escreval("4-Para dividir:")
- leia (opcao)
-    escolha opcao
-       caso 1
-    leia(valor1,valor2)
-limpatela
-    resultado <- soma(valor1, valor2)
-    escreval("Resultado da adição desses números = ",resultado)
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreval("1-Para adicionar:")
+   escreval("2-Para subtrair:")
+   escreval("3-Para multiplicar:")
+   escreval("4-Para dividir:")
+   leia (opcao)
+   escolha opcao
    
-    caso 2
-   leia(valor1,valor2)
-limpatela
-   resultado <- subtracao(valor1,valor2)
-   escreval("Resulado subtração desses números =",resultado)
-   
-      caso 3
-   leia(valor1,valor2)
-limpatela
-   resultado <- multiplicar(valor1, valor2)
-   escreval("Resultado da multiplicação desses números = ",resultado)
+   caso 1
+      leia(valor1,valor2)
+      limpatela
+      resultado <- soma(valor1, valor2)
+      escreval("Resultado da adição desses números = ",resultado)
 
-     caso 4
-   leia(valor1,valor2)
-limpatela
-   resultado <- divisao(valor1, valor2)
-   escreval("Resultado da divisão desses números = ",resultado)
+   caso 2
+      leia(valor1,valor2)
+      limpatela
+      resultado <- subtracao(valor1,valor2)
+      escreval("Resultado subtração desses números =",resultado)
+
+   caso 3
+      leia(valor1,valor2)
+      limpatela
+      resultado <- multiplicar(valor1, valor2)
+      escreval("Resultado da multiplicação desses números = ",resultado)
+
+   caso 4
+      leia(valor1,valor2)
+      limpatela
+      resultado <- divisao(valor1, valor2)
+      escreval("Resultado da divisão desses números = ",resultado)
    fimescolha
 Fimalgoritmo
