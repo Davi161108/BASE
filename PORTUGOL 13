@@ -1,0 +1,43 @@
+Algoritmo "semnome"
+//
+//
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 21/05/2025
+Var
+   // Seção de Declarações das variáveis
+  f,c:real
+  opcao:inteiro
+funcao celsius(a,b:real):real
+inicio
+a<- b-32
+retorne a
+fimfuncao
+
+funcao fahrenheit(d,g:real):real
+inicio
+d<- g*1.8+32
+retorne d
+fimfuncao
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreval ("1-Celsius para Fahrenheit")
+   escreval ("2-Fahrenheit para Celsius")
+   leia (opcao)
+   escolha opcao
+   
+   caso 1
+    leia(f)
+      limpatela
+      c <- (f-32)/1.8
+      escreval("Essa temperatura em Celsius é -----> ",c)
+      
+    caso 2
+      leia (c)
+        limpatela
+      f <- c*1.8+32
+      escreval("Essa temperatura em Fahrenheit é -----> ",f)
+    fimescolha
+    
+Fimalgoritmo
